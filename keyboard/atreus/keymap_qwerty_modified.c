@@ -5,7 +5,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KEYMAP(KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, \
          KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, \
          KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, \
-         KC_ESC, KC_TAB, KC_LGUI, KC_LSFT, KC_BSPC, KC_LCTL, KC_LALT,     \
+         KC_ESC, KC_TAB, KC_LGUI, KC_LSFT, KC_BSPC, KC_FN4, KC_LALT,     \
          KC_SPC, KC_FN0, KC_MINS, KC_QUOT, KC_ENT),                     \
   /* 1: punctuation and numbers */
   KEYMAP(SHIFT(KC_1), SHIFT(KC_2), SHIFT(KC_LBRC), SHIFT(KC_RBRC), SHIFT(KC_BSLS), \
@@ -19,10 +19,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* 2: arrows and function keys */
   LAYER_TWO, \
   /* 3: C-i sends TAB and C-m sends ENTER, the rest sends usual CTRL-<character> */
-  KEYMAP(CTRL(KC_Q), CTRL(KC_W), CTRL(KC_E), CTRL(KC_R), CTRL(KC_T), CTRL(KC_Y), CTRL(KC_U), KC_TAB, CTRL(KC_O), CTRL(KC_P), \
-         CTRL(KC_A), CTRL(KC_S), CTRL(KC_D), CTRL(KC_F), CTRL(KC_G), CTRL(KC_H), CTRL(KC_J), CTRL(KC_K), CTRL(KC_L), CTRL(KC_SCLN), \
-         CTRL(KC_Z), CTRL(KC_X), CTRL(KC_C), CTRL(KC_V), CTRL(KC_B), CTRL(KC_N), KC_ENT, CTRL(KC_COMM), CTRL(KC_DOT), CTRL(KC_SLSH), \
-         CTRL(KC_ESC), CTRL(KC_TAB), CTRL(KC_LGUI), CTRL(KC_LSFT), CTRL(KC_BSPC), CTRL(KC_LCTL), CTRL(KC_LALT), \
+  KEYMAP(CTRL(KC_Q), CTRL(KC_W), CTRL(KC_E), CTRL(KC_R), CTRL(KC_T), CTRL(KC_Y), CTRL(KC_U), KC_TAB, CTRL(KC_O), KC_UP, \
+         CTRL(KC_A), CTRL(KC_S), CTRL(KC_D), KC_RIGHT, CTRL(KC_G), KC_BSPC, CTRL(KC_J), CTRL(KC_K), CTRL(KC_L), CTRL(KC_SCLN), \
+         CTRL(KC_Z), CTRL(KC_X), CTRL(KC_C), CTRL(KC_V), KC_LEFT, KC_DOWN, KC_ENT, CTRL(KC_COMM), CTRL(KC_DOT), CTRL(KC_SLSH), \
+         CTRL(KC_ESC), CTRL(KC_TAB), CTRL(KC_LGUI), CTRL(KC_LSFT), CTRL(KC_BSPC), KC_FN4, CTRL(KC_LALT), \
          CTRL(KC_SPC), CTRL(KC_FN0), CTRL(KC_MINS), CTRL(KC_QUOT), CTRL(KC_ENT))
 };
 
