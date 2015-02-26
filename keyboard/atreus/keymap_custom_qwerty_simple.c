@@ -7,10 +7,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_FN6     , KC_X       , KC_C          , KC_V          , KC_B                             , KC_N          , KC_M   , KC_COMM, KC_DOT , KC_FN7, \
          KC_ESC     , KC_FN3     , KC_BSPC       , KC_FN0        , KC_FN8          , KC_TAB, KC_ENT , KC_FN8        , KC_FN0 , KC_MINS, KC_QUOT, KC_ESC), \
   /* 1: punctuation and numbers */
-  KEYMAP(SHIFT(KC_1), SHIFT(KC_2), SHIFT(KC_LBRC), SHIFT(KC_RBRC), SHIFT(KC_BSLS)                   , SHIFT(KC_MINS)         , KC_7   , KC_8   , KC_9, SHIFT(KC_8), \
-         SHIFT(KC_3), SHIFT(KC_4), SHIFT(KC_9)   , SHIFT(KC_0)   , KC_GRAVE                         , SHIFT(KC_SLSH), KC_4   , KC_5   , KC_6   , SHIFT(KC_EQUAL), \
-         SHIFT(KC_5), SHIFT(KC_6), KC_LBRC       , KC_RBRC       , SHIFT(KC_GRAVE)                  , SHIFT(KC_7)   , KC_1   , KC_2   , KC_3   , KC_BSLS, \
-         KC_ESC     , KC_FN1     , KC_BSPC       , KC_FN0        , KC_FN8          , KC_TAB, KC_ENT , KC_FN8        , KC_FN0 , KC_DOT , KC_0   , KC_EQUAL), \
+  KEYMAP(SHIFT(KC_1), SHIFT(KC_2), SHIFT(KC_LBRC), SHIFT(KC_RBRC), SHIFT(KC_BSLS)                   , SHIFT(KC_MINS) , KC_7  , KC_8   , KC_9   , SHIFT(KC_8), \
+         SHIFT(KC_3), SHIFT(KC_4), SHIFT(KC_9)   , SHIFT(KC_0)   , KC_GRAVE                         , SHIFT(KC_QUOTE), KC_4  , KC_5   , KC_6   , SHIFT(KC_EQUAL), \
+         SHIFT(KC_5), SHIFT(KC_6), KC_LBRC       , KC_RBRC       , SHIFT(KC_GRAVE)                  , SHIFT(KC_7)    , KC_1  , KC_2   , KC_3   , KC_BSLS, \
+         KC_ESC     , KC_FN1     , KC_BSPC       , KC_FN0        , KC_FN8          , KC_TAB, KC_ENT , KC_FN8         , KC_FN0, KC_DOT , KC_0   , KC_EQUAL), \
   /* 2: arrows and function keys */
   KEYMAP(KC_INS     , KC_HOME    , KC_UP         , KC_END        , KC_PGUP                          , KC_UP         , KC_F7  , KC_F8  , KC_F9  , KC_F10, \
          KC_DEL     , KC_LEFT    , KC_DOWN       , KC_RIGHT      , KC_PGDN                          , KC_DOWN       , KC_F4  , KC_F5  , KC_F6  , KC_F11, \
